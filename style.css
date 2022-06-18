@@ -1,0 +1,103 @@
+.whole_donut_wrap{
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    padding: 20px 0px;
+    position: relative;
+}
+
+.main_chart{
+    background: #000000;
+    z-index:3;
+}
+
+.donut_main{
+    margin: auto;
+    background: #000000 !important;
+    /* z-index:2; */
+    
+   
+}
+
+.donut_title{
+    color:white;
+    text-align: center;
+}
+
+.gray{
+    height: 20px;
+    width: 20px;
+    border-radius:4px;
+    position: absolute;
+    left: 10%;
+    top:55%;
+    background:#C4CBAD;
+    filter: blur(3px) !important; 
+    z-index:1;
+}
+
+.gray2{
+    height: 20px;
+    width: 20px;
+    border-radius:4px;
+    position: absolute;
+    right: 15%;
+    top:45%;
+    background:#C4CBAD;
+    filter: blur(3px) !important; 
+    z-index:1;
+}
+
+
+.blue{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    position: absolute;
+    left: 20%;
+    top:35%;
+    background:#2D91FF;
+    filter: blur(3px) !important; 
+    z-index:1; 
+}
+
+.blue2{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    position: absolute;
+    right: 26%;
+    bottom:35%;
+    background:#2D91FF;
+    filter: blur(3px) !important; 
+    z-index:1; 
+}
+
+.pink{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    position: absolute;
+    left: 15%;
+    bottom:20%;
+    background: #9450E6;
+    filter: blur(4px) !important; 
+    z-index:1;
+}
+.pink2{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    position: absolute;
+    right: 20%;
+    top:20%;
+    background: #9450E6;
+    filter: blur(4px) !important;
+}
+
+
+@media screen and (max-width:750px) {
+    .blue, .blue2, .pink, .pink2, .gray, .gray2{
+        display: none;
+    }
+}
